@@ -12,14 +12,8 @@ int main(){
         //     smallest=nums[i];
         // }
         smallest=min(nums[i],smallest);
-    }
-
-    for(int i=0;i<size;i++){
-        // if(nums[i]>greatest){
-        //     greatest=nums[i];
-        // }
         greatest=max(nums[i],greatest);
-    }
+    }    
     cout<<"your smallest number is:"<<smallest<<endl;
     cout<<"your greatest number is:"<<greatest;
 }
